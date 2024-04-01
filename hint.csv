@@ -1,0 +1,33 @@
+when you want to open code puclically you have to follow 3 steps.
+first steps
+in the index.ts file you write to the top line Shebang line i.e 
+#!/usr/bin/env node
+second steps:
+add one line in the json file which is
+bin : "index.js"
+now 3rd steps
+is to push git
+create account into npmjs.com
+in the terminal you write npm login
+than redirected to website for login
+npm publish than it will create 
+one more thing is that your project name will be unique.
+when you want to use any one project you can write npx project name
+now its time to install github
+create account on it
+new reporsitory --> unique name and description --> create
+now follow these steps
+…or create a new repository on the command line
+echo "# 2-2-5" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/taimurmemon/2-2-5.git
+git push -u origin main
+___________________________________________________________________
+…or push an existing repository from the command line
+git remote add origin https://github.com/taimurmemon/2-2-5.git
+git branch -M main
+git push -u origin main
+before using git you have to download git from website
